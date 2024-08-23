@@ -9,19 +9,83 @@ import Spotlight from "./spotlight";
 export default function Home() {
   return (
     <main className="bg-gray-900">
-      <header className="bg-background/75 backdrop-blur border-b border-gray-200 dark:border-gray-800 pt-3 pb-3 -mb-px sticky top-0 z-50 lg:mb-0 lg:border-0">
-        <div className="mx-auto px-2 sm:px-4 lg:px-6 max-w-7xl flex items-center justify-between gap-3 h-[--header-height]">
-          <div className="lg:flex-1 flex items-center font-semibold gap-1.5">
-            Compeasy.ai
+      <header class="bg-background/75 backdrop-blur border-b border-gray-200 dark:border-gray-800 -mb-px sticky top-0 z-50 lg:mb-0 lg:border-0 py-4">
+        <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl flex items-center justify-between gap-3 h-[--header-height]">
+          <div class="lg:flex-1 flex items-center gap-1.5">
+            <div data-headlessui-state="" class="relative inline-flex text-left rtl:text-right"><div id="headlessui-menu-button-nW6MJMAKszN-0" aria-haspopup="menu" aria-expanded="false" data-headlessui-state="" class="inline-flex w-full" role="button" data-n-ids="{&quot;nW6MJMAKszN-0&quot;:&quot;nW6MJMAKszN-0&quot;}">
+              <a href="/" class="router-link-active router-link-exact-active flex gap-2 items-end" aria-current="page">
+                <div class="relative inline-flex">
+                  <div className="lg:flex-1 flex items-center font-semibold gap-1.5">
+                    Compeasy.ai
+                  </div>
+                </div>
+              </a>
+            </div>
+            </div>
           </div>
-          {/* <ul className="items-center gap-x-8 hidden lg:flex">
-            <li className="relative">your buddy to 5** in English</li>
-          </ul> */}
-          <div className="flex items-center justify-end lg:flex-1 gap-1.5">
-            <div className="relative inline-flex">a</div>
-            <div className="relative inline-flex">v</div>
-            <div className="relative inline-flex">g</div>
-            <button data-collapse-toggle="mobile-menu-4" type="button" class="inline-flex items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden" aria-controls="mobile-menu-4" aria-expanded="false"><span class="sr-only">Open main menu</span><svg class="h-6 w-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg><svg class="hidden h-6 w-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+          <ul class="items-center gap-x-8 hidden lg:flex">
+            <li class="relative"><div class="relative" data-headlessui-state="">
+              <div class="inline-flex w-full" role="button" data-n-ids="{&quot;nin1Bero9DC-0&quot;:&quot;nin1Bero9DC-1&quot;,&quot;nin1Bero9DC-1&quot;:&quot;nin1Bero9DC-2&quot;}" id="headlessui-popover-button-nin1Bero9DC-1" aria-expanded="false" data-headlessui-state=""><a class="text-sm/6 font-semibold flex items-center gap-1 hover:text-primary" href="/docs">
+                Who
+                <span class="iconify i-ph:caret-down transform transition-transform duration-200 flex-shrink-0 w-4 h-4" aria-hidden="true" ></span>
+              </a>
+              </div>
+            </div>
+              <div hidden="" className="fixed top-1 left-1 w-1 h-0 p-0 -m-1 overflow-hidden whitespace-nowrap border-0 hidden"></div>
+            </li><li class="relative"><div class="relative" data-headlessui-state="">
+              <div class="inline-flex w-full" role="button" data-n-ids="{&quot;nin1Bero9DC-0&quot;:&quot;nin1Bero9DC-3&quot;,&quot;nin1Bero9DC-1&quot;:&quot;nin1Bero9DC-4&quot;}" id="headlessui-popover-button-nin1Bero9DC-3" aria-expanded="false" data-headlessui-state=""><a class="text-sm/6 font-semibold flex items-center gap-1 hover:text-primary" href="/modules">
+                What
+                <span class="iconify i-ph:caret-down transform transition-transform duration-200 flex-shrink-0 w-4 h-4" aria-hidden="true" ></span>
+              </a>
+              </div>
+            </div>
+              <div hidden="" className="fixed top-1 left-1 w-1 h-0 p-0 -m-1 overflow-hidden whitespace-nowrap border-0 hidden"></div>
+            </li><li class="relative"><div class="relative" data-headlessui-state="">
+              <div class="inline-flex w-full" role="button" data-n-ids="{&quot;nin1Bero9DC-0&quot;:&quot;nin1Bero9DC-5&quot;,&quot;nin1Bero9DC-1&quot;:&quot;nin1Bero9DC-6&quot;}" id="headlessui-popover-button-nin1Bero9DC-5" aria-expanded="false" data-headlessui-state="">
+                <a class="text-sm/6 font-semibold flex items-center gap-1 hover:text-primary" href="/templates">
+                  Where
+                  <span class="iconify i-ph:caret-down transform transition-transform duration-200 flex-shrink-0 w-4 h-4" aria-hidden="true" >
+                  </span>
+                </a>
+              </div>
+            </div>
+              <div hidden="" className="fixed top-1 left-1 w-1 h-0 p-0 -m-1 overflow-hidden whitespace-nowrap border-0 hidden"></div>
+            </li>
+            <li class="relative">
+              <a class="text-sm/6 font-semibold flex items-center gap-1 hover:text-primary" href="/showcase">
+                Why
+              </a>
+            </li>
+            <li class="relative"><div class="relative" data-headlessui-state="">
+              <div class="inline-flex w-full" role="button" data-n-ids="{&quot;nin1Bero9DC-0&quot;:&quot;nin1Bero9DC-7&quot;,&quot;nin1Bero9DC-1&quot;:&quot;nin1Bero9DC-8&quot;}" id="headlessui-popover-button-nin1Bero9DC-7" aria-expanded="false" data-headlessui-state=""><a class="text-sm/6 font-semibold flex items-center gap-1 hover:text-primary" href="/enterprise">
+                When
+                <span class="iconify i-ph:caret-down transform transition-transform duration-200 flex-shrink-0 w-4 h-4" aria-hidden="true" ></span>
+              </a>
+              </div>
+            </div>
+              <div hidden="" className="fixed top-1 left-1 w-1 h-0 p-0 -m-1 overflow-hidden whitespace-nowrap border-0 hidden">
+              </div>
+            </li>
+            <li class="relative">
+              <a class="text-sm/6 font-semibold flex items-center gap-1 hover:text-primary" href="/blog">
+                How
+              </a>
+            </li>
+          </ul>
+          <div class="flex items-center justify-end lg:flex-1 gap-1.5">
+            <div class="relative inline-flex">
+              <button type="button" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center" aria-label="Search"><span class="iconify i-ph:magnifying-glass-duotone flex-shrink-0 h-5 w-5" aria-hidden="true" ></span>
+              </button>
+            </div><div class="relative inline-flex">
+              <button type="button" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center" aria-label="Switch to light mode">
+                <span class="iconify i-ph:moon-duotone flex-shrink-0 h-5 w-5" aria-hidden="true"></span>
+              </button>
+            </div><div class="relative inline-flex"><a class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 px-2.5 py-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center" href="https://go.nuxt.com/github" rel="noopener noreferrer" target="_blank"><span class="iconify i-simple-icons:github flex-shrink-0 h-5 w-5" aria-hidden="true" ></span>
+              <span class="">53.8K</span>
+            </a>
+            </div>
+            <button type="button" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center lg:hidden" aria-label="Open Menu"><span class="iconify i-ph:list flex-shrink-0 h-5 w-5" aria-hidden="true" ></span>
+            </button>
           </div>
         </div>
       </header>
@@ -32,7 +96,7 @@ export default function Home() {
           <div className="text-center relative z-[1]">
             {/* <img src="/fullbgdsm.png" class="w-full h-[215vh] overflow-hidden absolute opacity-20 md:opacity-90 z-0" /> */}
             <div class="mb-10">
-              <a class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 text-xs gap-x-1.5 px-2.5 py-1.5 ring-1 ring-inset ring-current text-primary-500 dark:text-primary-400 disabled:bg-transparent dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center font-semibold hover:bg-gray-100 dark:hover:bg-primary-900 rounded-full" href="/blog/nuxt-scripts">
+              <a class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 text-xs gap-x-1.5 px-2.5 py-1.5 ring-1 ring-inset ring-current text-primary-500 dark:text-primary-400 disabled:bg-transparent dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center font-semibold hover:bg-gray-500 rounded-full" href="/">
                 <span class="">
                   Introducing Compeasy.ai
                 </span>
@@ -45,7 +109,7 @@ export default function Home() {
               The Ultimate
               <br />
               <span class="text-primary block lg:inline-block">
-                Slacker-to-Elite Writer Trump Card
+                English Writing Trump Card
               </span>
             </h1>
             <div class="mt-6 text-lg tracking-tight text-gray-400">
@@ -60,7 +124,7 @@ export default function Home() {
                 </div>
                 <div class="-ml-2 sm:ml-3 flex items-center justify-start">
                   {/* <img src="/yc.svg" class="h-6" alt="Y Combinator Logo" /> */}
-                  <Image src="/hkstp-logo-dark-mode.svg" width={50} height={50} />
+                  <a href="https://www.hkstp.org/en/"><Image src="/hkstp-logo-dark-mode.svg" width={50} height={50} /></a>
                   {/* <span class="ml-[6px] bg-gradient-to-br from-white to-mendable-300 bg-clip-text text-transparent sm:inline-block text-sm font-semibold">
                 Combinator
               </span> */}
