@@ -51,10 +51,15 @@ export default function Home() {
             </div>
               <div hidden="" className="fixed top-1 left-1 w-1 h-0 p-0 -m-1 overflow-hidden whitespace-nowrap border-0 hidden"></div>
             </li>
-            <li class="relative">
-              <a class="text-sm/6 font-semibold flex items-center gap-1 hover:text-primary" href="/showcase">
+            <li class="relative"><div class="relative" data-headlessui-state="">
+              <div class="inline-flex w-full" role="button" data-n-ids="{&quot;nin1Bero9DC-0&quot;:&quot;nin1Bero9DC-7&quot;,&quot;nin1Bero9DC-1&quot;:&quot;nin1Bero9DC-8&quot;}" id="headlessui-popover-button-nin1Bero9DC-7" aria-expanded="false" data-headlessui-state=""><a class="text-sm/6 font-semibold flex items-center gap-1 hover:text-primary" href="/enterprise">
                 Why
+                <span class="iconify i-ph:caret-down transform transition-transform duration-200 flex-shrink-0 w-4 h-4" aria-hidden="true" ></span>
               </a>
+              </div>
+            </div>
+              <div hidden="" className="fixed top-1 left-1 w-1 h-0 p-0 -m-1 overflow-hidden whitespace-nowrap border-0 hidden">
+              </div>
             </li>
             <li class="relative"><div class="relative" data-headlessui-state="">
               <div class="inline-flex w-full" role="button" data-n-ids="{&quot;nin1Bero9DC-0&quot;:&quot;nin1Bero9DC-7&quot;,&quot;nin1Bero9DC-1&quot;:&quot;nin1Bero9DC-8&quot;}" id="headlessui-popover-button-nin1Bero9DC-7" aria-expanded="false" data-headlessui-state=""><a class="text-sm/6 font-semibold flex items-center gap-1 hover:text-primary" href="/enterprise">
@@ -81,7 +86,7 @@ export default function Home() {
                 <span class="iconify i-ph:moon-duotone flex-shrink-0 h-5 w-5" aria-hidden="true"></span>
               </button>
             </div><div class="relative inline-flex"><a class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 px-2.5 py-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center" href="https://go.nuxt.com/github" rel="noopener noreferrer" target="_blank"><span class="iconify i-simple-icons:github flex-shrink-0 h-5 w-5" aria-hidden="true" ></span>
-              <span class="">53.8K</span>
+              <span class=""></span>
             </a>
             </div>
             <button type="button" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center lg:hidden" aria-label="Open Menu"><span class="iconify i-ph:list flex-shrink-0 h-5 w-5" aria-hidden="true" ></span>
